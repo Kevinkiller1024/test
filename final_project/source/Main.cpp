@@ -22,8 +22,6 @@ void clear_screen() {
 	system("cls");
 }
 
-int rull();
-
 struct card {
 	const char* face;
 	const char* suit;
@@ -32,7 +30,11 @@ struct card {
 typedef struct card Card;
 
 Card drawCard(Card deck[], int* deckIndex) { 
-	
+	if (*deckIndex >= DECK_SIZE) {
+		printf("\n牌已經抽完了！\n");
+		exit(1);
+	}
+	return deck[(*deckIndex)++];
 }
 
 void display_two_card(const char* face1, const char* suit1, const char* face2, const char* suit2) {
@@ -52,11 +54,28 @@ void card_fly_and_flip(int start_y, const char* face, const char* suit, const ch
 }
 
 void initializeDeck(Card deck[]) { // 初始化撲克牌
-	
+	int index = 0;
+	for (int i = 0; i < 4; i++) {
+		for (int j = 0; j < 13; j++) {
+			deck[index].face = (char*)face[j];
+			deck[index].suit = (char*)suit[i];
+			deck[index].value = j + 1;
+			index++;
+		}
+	}
 }
 
 void shuffle(Card* const wDeck) { // 洗牌
-	
+	int i;
+	int j;
+	Card temp;
+
+	for (i = 0; i < DECK_SIZE; i++) {
+		j = rand() % DECK_SIZE;
+		temp = wDeck[i];
+		wDeck[i] = wDeck[j];
+		wDeck[j] = temp;
+	}
 }
 
 int rull() {
