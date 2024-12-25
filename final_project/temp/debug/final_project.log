@@ -1,0 +1,21 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+  Main.cpp
+C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(124,12): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(181,10): warning C4477: 'printf' : 格式字串 '%ld' 需要 'long' 類型的引數，但 variadic 引數 1 的類型為 '__int64'
+      C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(181,10):
+      請考慮在格式字串中使用 '%lld'
+      C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(181,10):
+      請考慮在格式字串中使用 '%Id'
+      C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(181,10):
+      請考慮在格式字串中使用 '%I64d'
+  
+C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(183,10): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 '__int64'
+      C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(183,10):
+      請考慮在格式字串中使用 '%lld'
+      C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(183,10):
+      請考慮在格式字串中使用 '%Id'
+      C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(183,10):
+      請考慮在格式字串中使用 '%I64d'
+  
+  final_project.vcxproj -> C:\Users\Kevin\OneDrive\Desktop\作業\大學\大一上\高階程式設計實習\NTUT_113-1_CFinalProject_Team14\final_project\temp\debug\final_project.exe
